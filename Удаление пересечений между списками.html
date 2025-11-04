@@ -78,16 +78,6 @@
     transform: translateY(1px);
   }
 
-  /* Специальная кнопка с акцентом (основная) */
-  .btn-accent {
-    background: var(--accent);
-    color: white;
-  }
-
-  .btn-accent:hover {
-    background: #0a84ff;
-  }
-
   /* Блок вывода результата */
   pre {
     background: #2b2b2b;
@@ -139,7 +129,7 @@
 
   <!-- 🔘 Кнопки управления -->
   <div>
-    <button class="btn-accent" onclick="removeMatches()">Удалить совпадения из Списка 1</button>
+    <button onclick="removeMatches()">Удалить совпадения из Списка 1</button>
     <button onclick="removeDuplicates()">Удалить дубликаты (в Списке 1)</button>
     <button onclick="clearLists()">Очистить списки</button>
     <button onclick="copyList()">📋 Копировать результат</button>
